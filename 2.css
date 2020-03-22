@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.col-8 {
+    margin-top: 20px;
+}
+
+.nenkhoi2 {
+    background-color: #cfe9ff4d;
+}
+
+
+.container.khoiba {
+    height: 300px;
+}
+
+.thu2 {
+    padding-right: 90px;
+    /* color: white; */
+}
+
+.dautien {
+    padding-left: 180px;
+}
+
+.khoi3 {
+    background: #989898;
+    margin-top: 45px;
+}
+
+h4.khoi3 {
+    margin-top: 30px;
+}
+
+.thu2 {
+    text-align: center;
+}
+
+.dautien {
+    text-align: center;
+}
+
+.container .khoiba {
+    height: 300px;
+}
+
+.container .khoiba{
+    display: flex;
+    align-items: center;
+}
+
+.bakhoi {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav button {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 50%;
+    /* opacity: 0.5; */
+    transition: 0.5s;
+    color: black;
+}
+
+button.next {
+    /* padding-left: 50px; */
+}
+
+ul.nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 20;
+    margin-top: 15px;
+    /* margin-left: 12px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.nav {
+    width: 100%;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+li.slide {
+    width: 350px;
+    /* height: 100%; */
+    /* position: absolute; */
+    /* top: 0px; */
+    /* opacity: 0; */
+    /* display: flex; */
+    /* align-items: center; */
+    overflow: hidden;
+    line-height: 350px;
+    /* justify-content: space-between; */
+    background: white;
+}
+
+li.slide.slide2 {
+    /* width: 400px; */
+}
+
+li {
+    list-style: none;
+}
+
+li.slide:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+ul.carousel {
+    height: 450px;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 0; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.khoi2 {width: 1140px;height: 100%;margin: auto;padding-top: -2px;position: relative;/* background: #ababab4a; */}
+
+.khoi2 {}
+
+img.anhkhoi2 {
+    width: 100%;
+    /* margin: auto; */
+    /* height: 100%; */
+}
+
+img.anhkhoi2.a {
+    width: 80%;
+    margin-left: 30px;
+}
+
+img.anhkhoi2 {
+    /* width: 70; */
+}
+
+h2.ten {
+    font-weight: 600;
+    font-size: 55px;
+}
+
+h4.tieudenho {
+    font-weight: 300;
+}
+
+.tieude {
+    position: absolute;
+    top: 420px;
+    left: 85px;
+    z-index: 2;
+    color: white;
+}
+
+.tieude {}
+
+img.anh {
+    height: 100%;
+    height: 100%;
+    /* width: 100%; */
+    /* width: 1140px; */
+    /* margin-left: 300px; */
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 1;
+}
+
+.khoi1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.khoi1 {
+    background-color: #1a1a1a;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+nav {
+    height: 80px;
+    /* line-height: 100px; */
+    background: #2051dc;
+}
+
+.col.d-flex {
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* align-items: center; */
+    font-weight: 700;
+}
+
+
+
+button.nut {
+    padding: 10px 35px;
+    color: white;
+    font-weight: 700;
+    background: #2051dc;
+    border: none;
+}
+
+button:hover.nut {
+    background: #3b24ff;
+    border-radius: 7px;
+    transform: scale(1.2);
+}
+button:hover .nut{
+    background-color: rgb(0, 248, 41);
+}
+
+.active {
+    
+    animation: divao 0.4s forwards!important;
+}
+
+.deactive {
+    animation: dira 0.4s forwards!important;
+    
+}
+/* .tien {
+    animation-fill-mode: forwards;
+}
+
+.lui { 
+    animation-fill-mode: backwards; */
+}
+@-webkit-keyframes divao {
+    0% { transform: translateX(100%); opacity: 0;}
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes dira {
+    0% { transform: translateX(0); opacity: 1;}
+    100% { transform: translateX(-100%); opacity: 0;}
+}
